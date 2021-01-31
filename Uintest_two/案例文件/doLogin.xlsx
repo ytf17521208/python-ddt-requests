@@ -1,1 +1,6 @@
+http://127.0.0.1:8888/xz/data/user/login/doLogin	{"userName":"1208600","password":"z123456"}	登陆模块	正常登陆验证	1	
+http://127.0.0.1:8888/xz/data/user/login/doLogin	{"userName":"1208600","password":"x12"}	登陆模块	密码错误验证	0	用户名密码错误
+http://127.0.0.1:8888/xz/data/user/login/doLogin	{"userName":"1208600","password":"x123456"}	登陆模块	账号错误验证	0	用户名密码错误
+http://127.0.0.1:8888/xz/data/user/login/doLogin	{"userName":"1208600","password":""}	登陆模块	密码为空	10003	密码不能为空
+http://127.0.0.1:8888/xz/data/user/login/doLogin	{"userName":"","password":"xzyj123456"}	登陆模块	账号为空	10003	用户名不能为空
 
